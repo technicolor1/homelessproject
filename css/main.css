@@ -30,6 +30,10 @@ h2 {
   font-family: "Times New Roman";
 }
 
+p {
+  font-size: 1.5em;
+}
+
 .main-set {
   height: 100%;
   padding: 0;
@@ -44,12 +48,19 @@ h2 {
   font-size: 75px;
 }
 
-.item-1 {
+.item {
   margin-top: 500px;
 }
 
 .footer {
   margin-top: 250px;
+  background-color: lightgrey;
+  padding: 50px;
+}
+
+.detail {
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 /*
