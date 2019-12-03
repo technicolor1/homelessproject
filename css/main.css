@@ -44,23 +44,32 @@ p {
   flex-direction: column;
 }
 
-.main-set > h1 {
-  font-size: 75px;
+.main-set h1 {
+  font-size: 60px;
 }
 
 .item {
-  margin-top: 500px;
+  margin-top: 300px;
 }
 
 .footer {
   margin-top: 250px;
   background-color: lightgrey;
   padding: 50px;
+  word-wrap: break-word;
 }
 
 .detail {
   margin-left: 10vw;
   margin-right: 10vw;
+}
+
+.footer-header p {
+  text-align: left;
+  color: gray;
+  font-size: 0.9em;
+  margin: 0 auto;
+  padding: 5px 0;
 }
 
 /*
